@@ -1,0 +1,8 @@
+  module HA (
+    input wire a,
+    input wire b,
+    output c, 
+	output d );
+	assign c = a & b;
+	assign d = a ^ b;
+endmodule
